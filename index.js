@@ -21,3 +21,25 @@ function findTheNumber(array, n) {
 }
 
 findTheNumber(arrayOfNumbers, inputNumber);
+
+// Find if the two string are anagrams or not
+
+// Conditions:
+	// -> The length of both the strings should match
+	// -> The characters in both the strings should match
+	// -> It is not necessary that the result world should make sense(meaning)
+
+const stringOne = "EAT";
+const stringTwo = "TEE";
+
+function checkAnagram(fs, ss) {
+	const firstWord = fs.split("").sort().join("");
+	const secondWord = ss.split("").sort().join("");
+	if (firstWord == secondWord) {
+		return console.log(`The given words ${stringOne} & ${stringTwo} are anagrams`);
+	} else {
+		return console.log(`The given words ${stringOne} & ${stringTwo} are not anagrams`);
+	}
+}
+
+checkAnagram(stringOne, stringTwo);
