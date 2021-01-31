@@ -10,5 +10,7 @@ To run this in your local you must have `node.js` in your local machine.
 
 ## Contains:
 
-  - -> Recursion 
-  - -> Anagram 
+  - Recursion 
+  - Anagram 
+  - Print Matrix in snake pattern
+  - Find whether the given sting is a pangram or not
